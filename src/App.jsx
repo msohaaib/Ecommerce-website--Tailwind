@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Header from './assets/Components/Header'
+import Hero from './assets/Components/Hero'
+
 
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
   return (
     <>
       <Header/>
+      <Hero/>
     </>
   )
 }
