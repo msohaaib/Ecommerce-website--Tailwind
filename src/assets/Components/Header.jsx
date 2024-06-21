@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <div className='container h-8 mx-auto p-5'>
             <div className='md:flex md:flex-row justify-between text-center'>
-                <div className='flex flex-row'>
+                <div className='flex flex-row justify-center        '>
                     <div className='bg-gradient-to-r from-purple-400 to-red-400 w-8 h-8 rounded-lg'></div>
                     <h1 className='text-2xl text-gray-600 ml-2'>logo</h1>
                 </div>
