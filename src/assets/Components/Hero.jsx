@@ -334,6 +334,35 @@ export default function Hero() {
                 </div>
             </div>
 
+            {/* Newsletter */}
+
+            <div className="rounded-lg shadow-lg my-20 flex flex-row">
+                <div className='lg:w-3/5 w-full bg-gradient-to-r from-black to-purple-900 lg:via-purple-900 lg:to-transparent text-gray-100 p-8'>
+                <div className="lg:w-1/2">
+                <h3 className='text-lg font-extrabold pb-4'>Subscribe to get our offer first</h3>
+                <p className='pb-4 leading-relaxed'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quod. Lorem ipsum adipisicing elit. Quo, magni!</p>
+                <div>
+                    <input type="email" placeholder='Enter email address' className='bg-gray-600 text-gray-200 placeholder-gray-400 px-4 py-3 w-full rounded-lg focus:outline-none mb-4' />
+                    <button type="submit" className='bg-red-600 hover:bg-red-700 py-3 rounded-lg w-full'>Subscribe</button>
+                </div>
+                </div>
+                </div>
+                <div className='lg:w-2/5 w-full lg:flex lg:flex-row hidden'>
+                    <img src="../../images/subscribe-banner.png" alt=""  className='h-96'/>
+                </div>
+            </div>
+
+            {/* footer section */}
+
+            <div className='border-t-2 border-gray-300 flex flex-row justify-between'>
+                <div className='mb-4'>
+                    <a href="#" className='mx-2.5'>About</a>
+                    <a href="#" className='mx-2.5'>Privacy policy</a>
+                    <a href="#" className='mx-2.5'>Terms and Services</a>
+                </div>
+                <p>© Copyright Reserved 2024</p>
+            </div>
+
         </div>
 
     )
