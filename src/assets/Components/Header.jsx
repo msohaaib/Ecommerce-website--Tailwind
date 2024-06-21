@@ -13,6 +13,7 @@ export default function Header() {
                 <a className='text-gray-600 hover:text-purple-600 p-3' href="#">Shope</a>
                 <a className='text-gray-600 hover:text-purple-600 p-3' href="#">Blog</a>
                 <a className='text-gray-600 hover:text-purple-600 p-3' href="#">Contact</a>
+                <a className='text-gray-600 hover:text-purple-600 p-3' href="#">Cart (0)</a>
             </div>
             </div>
         </div>
