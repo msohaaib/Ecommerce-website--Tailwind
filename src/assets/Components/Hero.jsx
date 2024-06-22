@@ -354,8 +354,8 @@ export default function Hero() {
 
             {/* footer section */}
 
-            <div className='border-t-2 border-gray-300 flex flex-row justify-between'>
-                <div className='mb-4'>
+            <div className='border-t-2 border-gray-300 flex flex-col sm:flex-row justify-between'>
+                <div className='mb-4 flex flex-col min-[381px]:flex-row'>
                     <a href="#" className='mx-2.5'>About</a>
                     <a href="#" className='mx-2.5'>Privacy policy</a>
                     <a href="#" className='mx-2.5'>Terms and Services</a>
