@@ -1,5 +1,5 @@
 import React from 'react'
-
+import testImage from "../../public/hero-img.svg"
 export default function Hero() {
     return (
         <div className='container mx-auto p-5'>
@@ -66,7 +66,7 @@ export default function Hero() {
                     </div>
                     <div className="shadow-lg rounded-lg">
                         <a href="#">
-                            <img src="../../images/products/men/product2.jpg" className='rounded-tl-lg rounded-tr-lg' />
+                            <img src={testImage} className='rounded-tl-lg rounded-tr-lg' />
                         </a>
                         <div className="p-5">
                             <h3><a href="">Slim Khaki Trouse</a></h3>
