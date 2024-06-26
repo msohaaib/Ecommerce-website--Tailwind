@@ -1,5 +1,14 @@
 import React from 'react'
-import testImage from "../../public/hero-img.svg"
+import hero from "../../public/images/hero-img.svg"
+import Mpd1 from "../../public/images/products/men/product1.jpg"
+import Mpd2 from "../../public/images/products/men/product2.jpg"
+import Mpd3 from "../../public/images/products/men/product3.jpg"
+import Mpd4 from "../../public/images/products/men/product4.jpg"
+import Wpd1 from "../../public/images/products/women/product1.jpg"
+import Wpd2 from "../../public/images/products/women/product2.jpg"
+import Wpd3 from "../../public/images/products/women/product3.jpg"
+import Wpd4 from "../../public/images/products/women/product4.jpg"
+import scbanner from "../../public/images/subscribe-banner.png"
 export default function Hero() {
     return (
         <div className='container mx-auto p-5'>
@@ -11,7 +20,7 @@ export default function Hero() {
                     <a href="" className='bg-gradient-to-r from-red-600 to-pink-500 rounded-full text-gray-50 uppercase py-2 px-4 text-xl md:self-start my-3'>Shop Now</a>
                 </div>
                 <div className='md:w-3/5'>
-                    <img src="../../images/hero-img.svg" alt="w-full" />
+                    <img src={ hero} alt="w-full" />
                 </div>
             </div>
 
@@ -30,7 +39,7 @@ export default function Hero() {
                 <div className="grid grid-flow-row grid-cols1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                     <div className="shadow-lg rounded-lg">
                         <a href="#">
-                            <img src="../../images/products/men/product1.jpg" className='rounded-tl-lg rounded-tr-lg' />
+                            <img src={Mpd1} className='rounded-tl-lg rounded-tr-lg' />
                         </a>
                         <div className="p-5">
                             <h3><a href="">Men's T-Shirts</a></h3>
@@ -66,7 +75,7 @@ export default function Hero() {
                     </div>
                     <div className="shadow-lg rounded-lg">
                         <a href="#">
-                            <img src={testImage} className='rounded-tl-lg rounded-tr-lg' />
+                            <img src={Mpd2} className='rounded-tl-lg rounded-tr-lg' />
                         </a>
                         <div className="p-5">
                             <h3><a href="">Slim Khaki Trouse</a></h3>
@@ -102,7 +111,7 @@ export default function Hero() {
                     </div>
                     <div className="shadow-lg rounded-lg">
                         <a href="#">
-                            <img src="../../images/products/men/product3.jpg" className='rounded-tl-lg rounded-tr-lg' />
+                            <img src={Mpd3} className='rounded-tl-lg rounded-tr-lg' />
                         </a>
                         <div className="p-5">
                             <h3><a href="">Nike Shoes</a></h3>
@@ -138,7 +147,7 @@ export default function Hero() {
                     </div>
                     <div className="shadow-lg rounded-lg">
                         <a href="#">
-                            <img src="../../images/products/men/product4.jpg" className='rounded-tl-lg rounded-tr-lg' />
+                            <img src={Mpd4} className='rounded-tl-lg rounded-tr-lg' />
                         </a>
                         <div className="p-5">
                             <h3><a href="">Wrist Watches</a></h3>
@@ -189,7 +198,7 @@ export default function Hero() {
                 <div className="grid grid-flow-row grid-cols1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
                     <div className="shadow-lg rounded-lg">
                         <a href="#">
-                            <img src="../../images/products/women/product1.jpg" className='rounded-tl-lg rounded-tr-lg' />
+                            <img src={Wpd1} className='rounded-tl-lg rounded-tr-lg' />
                         </a>
                         <div className="p-5">
                             <h3><a href="">V Neck Tassel Cape</a></h3>
@@ -225,7 +234,7 @@ export default function Hero() {
                     </div>
                     <div className="shadow-lg rounded-lg">
                         <a href="#">
-                            <img src="../../images/products/women/product2.jpg" className='rounded-tl-lg rounded-tr-lg' />
+                            <img src={Wpd2} className='rounded-tl-lg rounded-tr-lg' />
                         </a>
                         <div className="p-5">
                             <h3><a href="">Printed Wrap Dress</a></h3>
@@ -261,7 +270,7 @@ export default function Hero() {
                     </div>
                     <div className="shadow-lg rounded-lg">
                         <a href="#">
-                            <img src="../../images/products/women/product3.jpg" className='rounded-tl-lg rounded-tr-lg' />
+                            <img src={Wpd3} className='rounded-tl-lg rounded-tr-lg' />
                         </a>
                         <div className="p-5">
                             <h3><a href="">Blue Denim Dress</a></h3>
@@ -297,7 +306,7 @@ export default function Hero() {
                     </div>
                     <div className="shadow-lg rounded-lg">
                         <a href="#">
-                            <img src="../../images/products/women/product4.jpg" className='rounded-tl-lg rounded-tr-lg' />
+                            <img src={Wpd4} className='rounded-tl-lg rounded-tr-lg' />
                         </a>
                         <div className="p-5">
                             <h3><a href="">High Waist Denim Skirt</a></h3>
@@ -348,7 +357,7 @@ export default function Hero() {
                 </div>
                 </div>
                 <div className='lg:w-2/5 w-full lg:flex lg:flex-row hidden'>
-                    <img src="../../images/subscribe-banner.png" alt=""  className='h-96'/>
+                    <img src={scbanner} alt=""  className='h-96'/>
                 </div>
             </div>
 
